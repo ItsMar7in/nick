@@ -22,7 +22,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #d43f4b;
+    background: #f1c40f;
     border-radius: 15px; /* Aumentado para mantener proporción */
     z-index: 1;
 }
