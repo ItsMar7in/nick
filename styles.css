@@ -77,7 +77,7 @@ body {
 .snoopy {
     position: absolute;
     left: 25%; 
-    top: 300px;
+    top: 420px;
     transform: translateY(-50%);
     width: 180px; /* Reduce el tamaño de la imagen */
     height: auto;
@@ -92,9 +92,10 @@ body {
 @media (max-width: 768px) {
     .snoopy {
         position: absolute;
+        top: 300px;
         right: 2%;
         transform: translateX(50%);
-        bottom: -50px; /* Lo coloca debajo de la carta */
+        bottom: 100px; /* Lo coloca debajo de la carta */
         width: 100px; /* Ajuste de tamaño en móviles */
     }
 }
