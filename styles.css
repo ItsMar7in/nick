@@ -3,15 +3,15 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #fffadd;
+    background-color: #f7edae;
     font-family: Arial, sans-serif;
     margin: 0;
 }
 
 .envelope {
     position: relative;
-    width: 400px; /* Aumentado de 300px a 400px */
-    height: 300px; /* Aumentado de 200px a 300px */
+        width: 400px; /* Aumentado de 300px a 400px */
+        height: 300px; /* Aumentado de 200px a 300px */
     cursor: pointer;
 }
 
@@ -76,8 +76,8 @@ body {
 }
 .snoopy {
     position: absolute;
-    right: -200px; /* Ajusta la posición a la derecha */
-    top: 65%;
+    left: 25%; 
+    top: 300px;
     transform: translateY(-50%);
     width: 180px; /* Reduce el tamaño de la imagen */
     height: auto;
@@ -86,4 +86,15 @@ body {
 .snoopy img {
     width: 100%;
     height: auto;
+    
+}
+
+@media (max-width: 768px) {
+    .snoopy {
+        position: absolute;
+        right: 2%;
+        transform: translateX(50%);
+        bottom: -50px; /* Lo coloca debajo de la carta */
+        width: 100px; /* Ajuste de tamaño en móviles */
+    }
 }
